@@ -1,0 +1,17 @@
+cone_midpoint_project/
+├── .venv/                # Virtual environment (not in git)
+├── src/                  # Source code
+│   ├── __init__.py
+│   ├── main.py           # Entry point: orchestrates the workflow
+│   ├── data_loader.py    # CSV reading and data parsing
+│   ├── geometry.py       # Cone pairing, midpoints, triangulation
+│   └── visualization.py  # All plotting logic
+├── data/                 # Input CSVs
+│   └── cones_data.csv
+├── tests/                # Unit tests
+│   ├── __init__.py
+│   └── test_geometry.py
+├── requirements.txt      # Dependencies
+├── README.md             # Project overview and usage
+├── .gitignore            # Ignore venv, __pycache__, data, etc.
+└── LICENSE               # (Optional) License
